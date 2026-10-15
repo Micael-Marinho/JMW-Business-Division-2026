@@ -1,0 +1,29 @@
+{
+  "name": "mindtrack",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Projeto acadêmico de acompanhamento do bem-estar — JMW Business Division 2026 / UTFPR.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --config frontend/vite.config.js",
+    "dev:frontend": "vite --config frontend/vite.config.js",
+    "dev:api": "npm --prefix server run dev",
+    "start": "npm --prefix server start",
+    "build": "vite build --config frontend/vite.config.js",
+    "build:frontend": "vite build --config frontend/vite.config.js",
+    "db:migrate": "npm --prefix server run db:migrate",
+    "test": "npm --prefix server test"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "1.31.0"
+  },
+  "devDependencies": {
+    "vite": "8.0.13",
+    "@vitejs/plugin-react": "6.0.2"
+  }
+}

@@ -1,0 +1,20 @@
+# Dependências instaladas em qualquer parte do projeto
+**/node_modules/
+
+# Configurações pessoais; apenas o exemplo é versionado
+**/.env
+**/.env.*
+!**/.env.example
+
+# Arquivos gerados
+/frontend-dist/
+/dist/
+**/coverage/
+*.log
+*.tsbuildinfo
+
+# Arquivos locais do sistema e arquivos compactados
+.DS_Store
+Thumbs.db
+*.zip
+*.tar.gz
