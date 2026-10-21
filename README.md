@@ -16,8 +16,6 @@ O MindTrack é uma plataforma de acompanhamento pessoal do bem-estar. A proposta
 
 A aplicação utiliza **React, Vite, Node.js, Express, PostgreSQL e Sequelize**. Cadastro e login usam e-mail e senha, com sessões mantidas pela API e pelo banco do projeto.
 
-**Já possui o projeto configurado?** Consulte [ATUALIZAR.md](ATUALIZAR.md) para aproveitar seu `.env` e o banco existente. Para publicar o código, veja [PUBLICAR_NO_GITHUB.md](PUBLICAR_NO_GITHUB.md).
-
 ## Identificação acadêmica
 
 | Informação  | Identificação                              |
