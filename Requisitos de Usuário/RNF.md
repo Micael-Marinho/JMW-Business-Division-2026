@@ -7,43 +7,43 @@
 - **Requisitos relacionados:** RF01, RF02
 
 ## RNF02 — Proteção de sessões e dados pessoais
-- **Descrição:** O sistema deve proteger as sessões autenticadas e restringir o acesso aos dados pessoais ao usuário autorizado.
+- **Descrição:** O sistema deve impedir que usuários não autenticados acessem funcionalidades e dados privados e deve impedir que um usuário consulte ou altere registros pertencentes a outra conta. Após o encerramento da sessão, o acesso a áreas privadas deve exigir nova autenticação.
 - **Categoria:** Segurança e privacidade
 - **Prioridade:** Alta
-- **Requisitos relacionados:** RF01, RF02, RF03, RF07, RF10
+- **Requisitos relacionados:** RF01, RF02, RF03, RF04, RF07, RF10
 
 ## RNF03 — Clareza das informações
-- **Descrição:** O sistema deve apresentar indicadores de bem-estar de forma descritiva, sem realizar diagnósticos ou afirmar causas clínicas.
+- **Descrição:** Os indicadores de bem-estar devem ser apresentados com rótulos compreensíveis e sem diagnósticos ou afirmações de causalidade clínica. A verificação deve confirmar que as telas de registro, painel e histórico não apresentam conclusões clínicas automáticas.
 - **Categoria:** Usabilidade e clareza
 - **Prioridade:** Alta
 - **Requisitos relacionados:** RF04, RF05, RF06
 
 ## RNF04 — Acessibilidade e preferências visuais
-- **Descrição:** A interface deve oferecer tema claro, escuro e automático, além de opções de contraste aumentado e movimento reduzido.
+- **Descrição:** As opções de tema claro, escuro e automático, contraste aumentado e movimento reduzido devem ser aplicadas à interface quando selecionadas. Os dados exibidos em gráficos também devem estar disponíveis em tabela, permitindo sua consulta sem depender da interpretação visual dos gráficos.
 - **Categoria:** Acessibilidade e usabilidade
 - **Prioridade:** Média
 - **Requisitos relacionados:** RF08, RF09, RF11, RF12
 
 ## RNF05 — Consistência dos registros
-- **Descrição:** O sistema deve manter os registros associados à conta correta e refletir as operações de criação, edição e exclusão realizadas pelo usuário.
+- **Descrição:** Cada registro criado deve permanecer associado à conta que o criou. Após criar, editar ou excluir um registro, uma nova consulta deve refletir a operação realizada, sem modificar os registros de outras contas.
 - **Categoria:** Confiabilidade
 - **Prioridade:** Alta
 - **Requisitos relacionados:** RF04, RF07, RF10
 
 ## RNF06 — Compatibilidade com navegadores
-- **Descrição:** A aplicação web deve funcionar nos navegadores modernos compatíveis com as tecnologias utilizadas pelo projeto.
+- **Descrição:** As funcionalidades principais devem ser verificadas nas versões estáveis atuais de Google Chrome, Mozilla Firefox e Microsoft Edge, em ambiente desktop, sem falhas que impeçam cadastro, login, registro de check-in e consulta de histórico.
 - **Categoria:** Compatibilidade
 - **Prioridade:** Média
 - **Requisitos relacionados:** RF01 a RF12
 
 ## RNF07 — Testabilidade
-- **Descrição:** As funcionalidades do servidor devem permitir a execução de testes automatizados para verificar seus comportamentos principais.
+- **Descrição:** As principais operações do servidor (autenticação, criação e consulta de registros e gerenciamento de conta) devem permitir testes automatizados que validem respostas de sucesso e de erro, sem exigir interação manual com a interface.
 - **Categoria:** Manutenibilidade e qualidade
 - **Prioridade:** Média
 - **Requisitos relacionados:** RF01 a RF10
 
 ## RNF08 — Exportação legível dos dados
-- **Descrição:** A exportação da conta deve disponibilizar os dados em formato JSON válido para uso externo.
+- **Descrição:** O arquivo exportado deve ser um JSON sintaticamente válido, que possa ser interpretado por um analisador JSON e contenha os dados da conta e os registros associados disponibilizados pela funcionalidade de exportação.
 - **Categoria:** Interoperabilidade
 - **Prioridade:** Média
 - **Requisitos relacionados:** RF10
