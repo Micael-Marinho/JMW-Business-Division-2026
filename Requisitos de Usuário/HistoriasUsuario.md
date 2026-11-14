@@ -38,7 +38,7 @@
   - As informações exibidas devem corresponder aos registros do usuário.
 - **Prioridade:** Alta
 - **Story Points:** 5
-- **Requisitos relacionados:** RF05, RNF03, RNF05
+- **Requisitos relacionados:** RF05, RNF02, RNF03, RNF05
 
 ## US05 — Consultar meu histórico
 - **História:** Como usuário autenticado, quero consultar meus registros de bem-estar por período, para acompanhar e comparar minhas informações ao longo do tempo.
@@ -78,7 +78,7 @@
   - A exclusão da conta deve remover também os registros associados, conforme previsto pelo sistema.
 - **Prioridade:** Média
 - **Story Points:** 8
-- **Requisitos relacionados:** RF10, RNF02, RNF08
+- **Requisitos relacionados:** RF10, RNF02, RNF05, RNF08
 
 ## US09 — Consultar informações sobre o MindTrack
 - **História:** Como visitante, quero consultar a página institucional e as perguntas frequentes, para compreender a proposta e o funcionamento do sistema.
