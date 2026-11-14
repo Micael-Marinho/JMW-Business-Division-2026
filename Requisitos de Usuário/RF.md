@@ -23,7 +23,7 @@
 ## RF05 — Visualização do painel
 - **Descrição:** O sistema deve apresentar médias, humor mais recente e registros recentes do usuário.
 - **Prioridade:** Alta
-- **Requisitos relacionados:** RNF03
+- **Requisitos relacionados:** RNF02, RNF03, RNF05
 
 ## RF06 — Consulta ao histórico
 - **Descrição:** O sistema deve permitir consultar registros por período e apresentar comparações descritivas.
