@@ -1,11 +1,12 @@
 # Histórias de Usuário — MindTrack
 
 ## US01 — Criar conta
-- **História:** Como novo usuário, quero criar uma conta, para acessar o MindTrack e registrar meu bem-estar.
+- **História:** Como novo usuário, quero criar uma conta utilizando e-mail e senha, para acessar o MindTrack e acompanhar meu bem-estar.
 - **Critérios de aceitação:**
-  - O sistema deve permitir informar e-mail e senha.
-  - Com e-mail em formato válido e senha aceita pelas regras de cadastro do sistema, a conta deve ser criada e ficar disponível para autenticação.
-  - Um e-mail em formato inválido ou uma senha que não atenda às regras de cadastro deve impedir a criação da conta e apresentar uma mensagem indicando o campo a corrigir.
+  - O sistema deve permitir informar e-mail e senha no cadastro.
+  - Quando os dados atenderem às regras de validação do cadastro, o sistema deve criar a conta e disponibilizá-la para autenticação.
+  - Quando os dados não atenderem às regras de validação, o sistema deve impedir o cadastro e indicar o campo a corrigir.
+  - A senha não deve ser armazenada em texto puro.
 - **Prioridade:** Alta
 - **Story Points:** 3
 - **Requisitos relacionados:** RF01, RNF01, RNF02
@@ -21,11 +22,11 @@
 - **Requisitos relacionados:** RF02, RF03, RNF01, RNF02
 
 ## US03 — Registrar meu bem-estar
-- **História:** Como usuário autenticado, quero registrar meu humor, estresse, sono, energia, atividade física e observações, para acompanhar meu dia a dia.
+- **História:** Como usuário autenticado, quero registrar informações sobre meu bem-estar, para acompanhar minha rotina ao longo do tempo.
 - **Critérios de aceitação:**
-  - O formulário deve disponibilizar campos para humor, estresse, sono, energia, atividade física e observações pessoais.
-  - Após salvar, o registro deve estar associado à conta autenticada e não deve aparecer para outra conta.
-  - Após o salvamento bem-sucedido, o sistema deve apresentar uma confirmação; se o salvamento falhar, deve informar o erro.
+  - O formulário deve permitir registrar humor, estresse, sono, energia, atividade física e observações pessoais.
+  - Após salvar com sucesso, o registro deve ficar associado à conta autenticada e não deve aparecer para outra conta.
+  - O sistema deve confirmar o salvamento bem-sucedido e informar quando houver falha.
 - **Prioridade:** Alta
 - **Story Points:** 5
 - **Requisitos relacionados:** RF04, RNF02, RNF05
@@ -40,11 +41,12 @@
 - **Requisitos relacionados:** RF05, RNF03, RNF05
 
 ## US05 — Consultar meu histórico
-- **História:** Como usuário, quero consultar meus registros por período, para comparar minhas respostas ao longo do tempo.
+- **História:** Como usuário autenticado, quero consultar meus registros de bem-estar por período, para acompanhar e comparar minhas informações ao longo do tempo.
 - **Critérios de aceitação:**
-  - O sistema deve permitir selecionar um período de consulta.
-  - O histórico deve apresentar os registros correspondentes.
-  - As comparações devem identificar o período consultado e os dados apresentados em gráficos também devem poder ser consultados em tabela.
+  - O usuário deve poder selecionar um período para consulta.
+  - O sistema deve apresentar os registros da conta autenticada correspondentes ao período selecionado.
+  - As comparações devem identificar o período consultado e apresentar informações descritivas, sem diagnósticos ou conclusões clínicas automáticas.
+  - Quando os dados forem apresentados em gráficos, deve existir uma alternativa de consulta em tabela.
 - **Prioridade:** Alta
 - **Story Points:** 5
 - **Requisitos relacionados:** RF06, RF12, RNF03, RNF04
