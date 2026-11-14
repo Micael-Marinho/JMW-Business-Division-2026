@@ -24,12 +24,17 @@
 ## US03 — Registrar meu bem-estar
 - **História:** Como usuário autenticado, quero registrar informações sobre meu bem-estar, para acompanhar minha rotina ao longo do tempo.
 - **Critérios de aceitação:**
-  - O formulário deve permitir registrar humor, estresse, sono, energia, atividade física e observações pessoais.
+  - O formulário deve permitir registrar obrigatoriamente humor, estresse, qualidade do sono e energia e disposição, utilizando escalas de 1 a 5.
+  - O indicador de humor deve apresentar representações de expressões faciais para os valores da escala.
+  - Os indicadores de estresse, qualidade do sono e energia e disposição devem apresentar escalas numéricas sem representações faciais.
+  - O formulário deve permitir informar opcionalmente a quantidade de minutos dedicados à atividade física.
+  - O formulário deve disponibilizar um campo opcional de texto livre para observações pessoais.
+  - O sistema deve validar o preenchimento dos campos obrigatórios e os valores informados.
   - Após salvar com sucesso, o registro deve ficar associado à conta autenticada e não deve aparecer para outra conta.
   - O sistema deve confirmar o salvamento bem-sucedido e informar quando houver falha.
 - **Prioridade:** Alta
 - **Story Points:** 5
-- **Requisitos relacionados:** RF04, RNF02, RNF05
+- **Requisitos relacionados:** RF04, RNF02, RNF03, RNF05
 
 ## US04 — Visualizar meu painel
 - **História:** Como usuário, quero visualizar um painel com resumos dos meus registros, para observar informações recentes sobre meu bem-estar.
