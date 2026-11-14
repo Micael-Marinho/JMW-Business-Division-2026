@@ -16,7 +16,7 @@
 - **Requisitos relacionados:** RNF02
 
 ## RF04 — Registro de check-in
-- **Descrição:** O sistema deve permitir registrar humor, estresse, sono, energia, atividade física e observações pessoais.
+- **Descrição:** O sistema deve permitir que o usuário registre informações sobre seu bem-estar por meio de quatro indicadores obrigatórios: humor, utilizando uma escala de 1 a 5 com representações de expressões faciais; estresse, qualidade do sono e energia e disposição, utilizando escalas de 1 a 5 sem representações faciais. Também deve permitir informar, opcionalmente, a quantidade de minutos dedicados à atividade física e adicionar observações pessoais em um campo de texto livre.
 - **Prioridade:** Alta
 - **Requisitos relacionados:** RNF02, RNF03, RNF05
 
