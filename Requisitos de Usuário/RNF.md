@@ -34,7 +34,7 @@
 - **Descrição:** As funcionalidades principais devem ser verificadas nas versões estáveis atuais de Google Chrome, Mozilla Firefox e Microsoft Edge, em ambiente desktop. Os testes devem confirmar o funcionamento do cadastro, login, encerramento de sessão, registro de check-in, visualização do painel e consulta ao histórico.
 - **Categoria:** Compatibilidade
 - **Prioridade:** Média
-- **Requisitos relacionados:** RF01 a RF06
+- **Requisitos relacionados:** RF01 a RF07, RF10
 
 ## RNF07 — Testabilidade
 - **Descrição:** As principais operações do servidor, incluindo autenticação, criação e consulta de registros, edição e exclusão de registros do diário e gerenciamento da conta, devem permitir testes automatizados que validem respostas de sucesso e de erro, sem exigir interação manual com a interface.
