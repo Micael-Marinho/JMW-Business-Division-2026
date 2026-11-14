@@ -48,7 +48,7 @@
   - As comparações devem identificar o período consultado e apresentar informações descritivas, sem diagnósticos ou conclusões clínicas automáticas.
   - Quando os dados forem apresentados em gráficos, deve existir uma alternativa de consulta em tabela.
 - **Prioridade:** Alta
-- **Story Points:** 5
+- **Story Points:** 8
 - **Requisitos relacionados:** RF06, RF12, RNF03, RNF04
 
 ## US06 — Manter meu diário pessoal
@@ -77,7 +77,7 @@
   - A exportação deve gerar um arquivo que possa ser interpretado como JSON válido e contenha os dados disponibilizados para exportação.
   - A exclusão da conta deve remover também os registros associados, conforme previsto pelo sistema.
 - **Prioridade:** Média
-- **Story Points:** 5
+- **Story Points:** 8
 - **Requisitos relacionados:** RF10, RNF02, RNF08
 
 ## US09 — Consultar informações sobre o MindTrack
