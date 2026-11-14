@@ -31,16 +31,16 @@
 - **Requisitos relacionados:** RF04, RF07, RF10
 
 ## RNF06 — Compatibilidade com navegadores
-- **Descrição:** As funcionalidades principais devem ser verificadas nas versões estáveis atuais de Google Chrome, Mozilla Firefox e Microsoft Edge, em ambiente desktop, sem falhas que impeçam cadastro, login, registro de check-in e consulta de histórico.
+- **Descrição:** As funcionalidades principais devem ser verificadas nas versões estáveis atuais de Google Chrome, Mozilla Firefox e Microsoft Edge, em ambiente desktop. Os testes devem confirmar o funcionamento do cadastro, login, encerramento de sessão, registro de check-in, visualização do painel e consulta ao histórico.
 - **Categoria:** Compatibilidade
 - **Prioridade:** Média
-- **Requisitos relacionados:** RF01 a RF12
+- **Requisitos relacionados:** RF01 a RF06
 
 ## RNF07 — Testabilidade
-- **Descrição:** As principais operações do servidor (autenticação, criação e consulta de registros e gerenciamento de conta) devem permitir testes automatizados que validem respostas de sucesso e de erro, sem exigir interação manual com a interface.
+- **Descrição:** As principais operações do servidor, incluindo autenticação, criação e consulta de registros, edição e exclusão de registros do diário e gerenciamento da conta, devem permitir testes automatizados que validem respostas de sucesso e de erro, sem exigir interação manual com a interface.
 - **Categoria:** Manutenibilidade e qualidade
 - **Prioridade:** Média
-- **Requisitos relacionados:** RF01 a RF10
+- **Requisitos relacionados:** RF01 a RF07, RF10
 
 ## RNF08 — Exportação legível dos dados
 - **Descrição:** O arquivo exportado deve ser um JSON sintaticamente válido, que possa ser interpretado por um analisador JSON e contenha os dados da conta e os registros associados disponibilizados pela funcionalidade de exportação.
