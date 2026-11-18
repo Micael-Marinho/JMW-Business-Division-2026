@@ -29,9 +29,9 @@ A aplicação utiliza **React, Vite, Node.js, Express, PostgreSQL e Sequelize**.
 
 | Integrante                         | RA      | Perfil fornecido                            |
 | ---------------------------------- | ------- | ------------------------------------------- |
-| João Victor Queiroz de Lima        | 2051524 | —                                           |
+| João Victor Queiroz de Lima        | 2051524 | [GitHub](https://github.com/joaoqueiroz00)  |
 | Micael Marinho Souza               | 2819457 | [GitHub](https://github.com/Micael-Marinho) |
-| Wagner Lourenço de Oliveira Junior | 2819473 | —                                           |
+| Wagner Lourenço de Oliveira Junior | 2819473 | [GitHub](https://github.com/wwwagnerjr)     |
 
 ## Funcionalidades implementadas
 
